@@ -1,0 +1,9 @@
+{
+  "label": "Best Practices Practicum Theme",
+  "preview_path": "./images/theme-preview.png",
+  "screenshot_path": "./images/theme-preview.png",
+  "enable_domain_stylesheets": false,
+  "author": {
+    "name": "Abid Ali"
+  }
+}

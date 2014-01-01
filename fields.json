@@ -1,0 +1,68 @@
+[
+  {
+    "name": "branding",
+    "label": "Brand Settings",
+    "type": "group",
+    "children": [
+      {
+        "name": "primary_color",
+        "label": "Primary Color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.primaryColor"
+          }
+        }
+      },
+      {
+        "name": "secondary_color",
+        "label": "Secondary Color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.secondaryColor"
+          }
+        }
+      },
+      {
+        "name": "accent_color",
+        "label": "Accent Color",
+        "type": "color",
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "brand_settings.accentColor1"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "name": "layout",
+    "label": "Layout Settings",
+    "type": "group",
+    "children": [
+      {
+        "name": "header_bg",
+        "label": "Header Background",
+        "type": "color",
+        "default": {
+          "color": "#48617d"
+        }
+      },
+      {
+        "name": "footer_bg",
+        "label": "Footer Background",
+        "type": "color",
+        "default": {
+          "color": "#48617d"
+        }
+      },
+      {
+        "name": "menu",
+        "label": "Navigation Menu",
+        "type": "menu",
+        "default": "default"
+      }
+    ]
+  }
+]
